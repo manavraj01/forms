@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manav Forms</title>
+  </head>
+  <style>
+  #name{
+    color : green;
+
+  }
+ hr{
+   background-color: red;
+ }
+
+  body{
+    background-image:url("img_tree.png");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+  border-style:groove;
+  border-color:red;
+  margin-left:100px;
+  }
+  </style>
+<body>
+  <h1>
+    Welcome to the Forms
+  </h1>
+<form method="">
+  <p>Name : <input type="text" name="name" id="name"  required></p>
+  <hr>
+  <p>Gender : Male<input type="radio" name="gender" value="Male"> &nbsp; Female<input type="radio" name="gender" value="Female"</p>
+  <hr>
+  <p>Personal Number : <input type="number" name="phone" id="phone" required></p>
+  <hr>
+  <p>City : <select name="City_name" id="city">
+    <option value="">
+      --Select city
+    </option>
+  <option value="Vadodara">Vadodara</option>
+  <option value="Ahmedabad">Ahmedabad</option>
+  <option value="Rajkot">Rajkot</option>
+  <option value="Surat">Surat</option>
+  </select>
+</p>
+<p>
+  Email : <input type="email" name="mail" id="mail" required >
+</p>
+<hr><p>Address : <textarea name="address" id="address" rows="10" cols="35"></textarea>
+  <hr>
+<p>Hobbies : <input type="checkbox" name="hobbies" >Sports</p> &nbsp; <input type="checkbox" name="hobbies" >Reading</p> &nbsp;<input type="checkbox" name="hobbies" >Cooking</p>
+<hr>
+<input type="submit" value="Sumbit" > &nbsp; <input type="reset" value="clear" >
+</p>
+</form>
+</body>
+</html>
